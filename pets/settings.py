@@ -77,16 +77,16 @@ WSGI_APPLICATION = 'pets.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'petspotter',
-        'USER':'root',
-        'PASSWORD':'',
-        'HOST':'localhost',
-        'PORT':'3306',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'df9g9omr8d17fv',
+        'USER':'hbccidwsxwmbxg',
+        'PASSWORD':'c319e71be57ecfe53db80ac4b41a1a7ac8392c59d54bd0ffd5b5be4bca5636ca',
+        'HOST':'ec2-54-242-43-231.compute-1.amazonaws.com',
+        'PORT':'5432',
     }
 }
 
-
+# postgres://hbccidwsxwmbxg:c319e71be57ecfe53db80ac4b41a1a7ac8392c59d54bd0ffd5b5be4bca5636ca@ec2-54-242-43-231.compute-1.amazonaws.com:5432/df9g9omr8d17fv
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
